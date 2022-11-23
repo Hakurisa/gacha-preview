@@ -50,7 +50,7 @@ pub(crate) fn gamba_brain(
         while character_acquired == false {
             count += 1;
             if pity_5star >= 74 {
-                weights[2] = 0.25;
+                weights[2] += 0.07;
             } else {
                 weights[2] = 0.006;
             }
